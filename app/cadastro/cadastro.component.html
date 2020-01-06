@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Formulário</title>
+</head>
+
+<body>
+  <div class="header">
+    <a href="#default" class="logo"><img src="../../assets/img/logocolorida.png" width="175px" height="35px"></a>
+    <div class="header-right">
+      <a class="active" routerLink=''>Home</a>
+      <a href="#contact">Contato</a>
+      <a href="#about">Sobre</a>
+    </div>
+  </div><br>
+
+  <h1 class="tituloprincipal">Cadastre-se aqui:</h1><br>
+
+  <form>
+    <div class="form-group">
+      <label for="exampleInputEmpresa">Nome da Empresa:</label>
+      <input type="text" class="form-control" id="exampleInputEmpresa" placeholder="Digite o nome da Empresa...">
+    </div>
+
+    <div class="form-group">
+      <label for="exampleInputCNPJ">CNPJ da empresa:</label>
+      <input type="number" class="form-control" id="exampleInputCNPJ" placeholder="Digite o CNPJ da Empresa...">
+    </div>
+
+    <div class="form-group">
+      <label for="exampleInputNomeFantasia">Nome Fantasia:</label>
+      <input type="text" class="form-control" id="exampleInputNomeFantasia" placeholder="Digite o nome fantasia...">
+    </div>
+
+    <div class="form-group">
+      <label for="exampleInputEndereço">Endereço Completo da Empresa:</label>
+      <input type="text" class="form-control" id="exampleInputEndereço" placeholder="Digite o endereço...">
+    </div>
+
+    <div class="form-group">
+      <label for="exampleInputTelefone1">Telefone da Empresa:</label>
+      <input type="tel" class="form-control" id="exampleInputTelefone1" placeholder="Digite o telefone da empresa...">
+    </div>
+
+    <div class="form-group">
+      <label for="exampleInputTelefone2">Outro telefone:</label>
+      <input type="tel" class="form-control" id="exampleInputTelefone2" placeholder="Digite o telefone da empresa...">
+    </div>
+
+    <div class="form-group">
+      <label for="exampleInputTelefone1">Telefone da Empresa:</label>
+      <input type="tel" class="form-control" id="exampleInputTelefone2" placeholder="Digite o telefone da empresa...">
+    </div>
+
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email da Empresa:</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+        placeholder="Digite o e-mail da empresa...">
+      <small id="emailHelp" class="form-text text-muted"></small>
+    </div>
+
+    <div class="form-group">
+      <label for="exampleInputSite">Site da Empresa (caso haja):</label>
+      <input type="email" class="form-control" id="exampleInputSite" placeholder="Digite o site da empresa...">
+    </div>
+
+    <div class="form-group">
+      <label for="exampleInputAtividadesDesenvolvidas">Atividades Desenvilovidas pela Empresa:</label>
+      <input type="text" class="form-control" id="exampleInputAtividadesDesenvolvidas"
+        placeholder="Digite as atividades da emprersa ...">
+    </div>
+
+
+    <div class="form-group">
+      <label>Faturamento anual da Empresa:</label>
+      <div class="select">
+        <select name="Faturamneto" class="form-group">
+          <option value="1" id="exampleInputFaturamentoAnual1">Faturamento anual de R$81 mil a R$360 mil reais</option>
+          <option value="2" id="exampleInputFaturamentoAnual2">Faturamento anual de R$361 mil a R$4,8 milhões de reais</option>
+          <option value="3" id="exampleInputFaturamentoAnual3">Faturamento anual de acima de 4,8 milhões de reais</option>
+          <option value="4" id="ExampleInputSemFaturamento">Sem Faturamento</option>
+        </select>
+      </div>
+    </div><br>
+
+    <div class="form-group">
+      <label for="exampleInputLogomarca">Anexar Logomarca:</label>
+      <input type="file" id="exampleInputLogomarca" placeholder="Digite ...">
+    </div>
+
+    <div class="form-group">
+      <label for="exampleInputFuncao">Função da Empresa:</label>
+      <input type="text" class="form-control" id="exampleInputFuncao" placeholder="Digite a função...">
+    </div>
+
+    <div class="form-group">
+      <label for="exampleInputColaboradores">Número de Colaboradores:</label>
+      <input type="number" class="form-control" id="exampleInputColaboradores"
+        placeholder="Digite o número de colaboradores ...">
+    </div>
+
+    <div class="form-group">
+      <label for="exampleInputAssociada">Sua Empresa já é Associada a Algum Sindicato? Se Sim, Qual ou Quais?</label>
+      <input type="text" class="form-control" id="exampleInputAssociada" placeholder="Digite aqui o(s) sindicato(s)...">
+    </div>
+
+    <div class="form-group">
+      <label for="exampleInputBeneficios">Seus Colaboradores Recebem Algum Benefício? Se Sim, Informar Qual a Natureza
+        de Benefício e, se Possível, o Prestador(Exemplo: Plano de Saúde, Previdência Privada, Auxílio
+        Refeção/Alimentação, Entre Outros). Caso Queira, Anexar Documento:</label>
+      <input type="text" class="form-control" id="exampleInputBeneficios" placeholder="Digite aqui os benefícios...">
+      <input type="file" id="ExampleInputBeneficiosDocumento">
+    </div>
+
+    <div class="form-group">
+      <label for="exampleInputConvenios">Sua Empresa tem Algum Convênio ou Parceria que Contempla Descontos aos
+        Colaboradores e/ou Familiares? Se Sim e Possível, Informar Qual e compo Acontece Esta Parceria Convênio
+        (Exemplos: Restaurantes, Academias, Universidades, Cursos, Entre Outros). Caso Queira Anexar Algum
+        Documento:</label>
+      <input type="text" class="form-control" id="exampleInputConvenios" placeholder="Digite aqui os convênios...">
+      <input type="file" class="ExampleInputConveniosDocumento">
+    </div><br><br><br>
+
+<h2>Cadastro do Responsável</h2>
+
+    <div class="form-group">
+      <label for="exampleInputResponsavel">Nome Completo do Responsável pelo cadastro:</label>
+      <input type="text" class="form-control" id="exampleInputResponsavel"
+        placeholder="Digite o nome do responsável...">
+    </div>
+
+    <div class="form-group">
+      <label for="exampleInputTelefoneRes">Telefone do Responsável:</label>
+      <input type="tel" class="form-control" id="exampleInputTelefoneRes" placeholder="Digite o telefone...">
+    </div>
+
+    <div class="form-group">
+      <label for="exampleInputEmailRes">Email do responsável:</label>
+      <input type="email" class="form-control" id="exampleInputEmailRes" placeholder="Digite o email...">
+    </div>
+
+    <div class="form-group">
+      <label for="exampleInputPassword1">Senha:</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite a sua senha...">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Cadastrar</button>
+  </form>
+
+  <footer>
+    <div class="logorodape">
+    <img src="../../assets/img/logopequena.png" width="175" height="35">
+  </div>
+  </footer>
+</body>
+
+</html>
